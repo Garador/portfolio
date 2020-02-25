@@ -622,9 +622,9 @@ ul > li:last-child {
 }
 
 .project-img-container {
-    height: 250px;
-    overflow: hidden;
-    text-align: center;
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
 }
 .project-item img {
   max-width: 100%;
@@ -632,7 +632,27 @@ ul > li:last-child {
 }
 
 .project-item > h3 {
-    font-size: calc(1em + 1vw);
-    text-align: center;
-    margin-bottom: 5px;
+  font-size: calc(1em + 1vw);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
 }
